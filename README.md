@@ -3,13 +3,15 @@ Projeto feito com MERN sendo um site responsivo e com o back-end e banco de dado
 Feito pelo quarteto: Erica Lelis, Giovanna Santos, Julia Freita e João Paulo. 
 Créditos ao Senai Suíço-Brasileiro Paulo Ernesto Tolle.
 
-ADENDOS: <br>
+ADENDOS:
+
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.1.0",
     "react-router-dom": "^6.23.0"
-  } <br>
+  } 
+  
   "devDependencies": {
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
