@@ -1,0 +1,61 @@
+.Create{
+    margin: 5vh auto;
+}
+
+.Formulario {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20vh;
+    justify-content: center;
+}
+
+.form-cont input, textarea {
+    border: none;
+    background-color: #634643;
+    margin: 5px;
+    color: #3D2528;
+    border-radius: 5px;
+    padding: 5px 8px;
+    font-size: 18px;
+    font-family: "DM Sans", sans-serif;
+    outline: none;
+    resize: none
+}
+
+#arquivo{
+    min-width: 5vw;
+    max-width: 10vw;
+}
+
+.form-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-cont {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8vw;
+}
+
+.quadrado, .Formulario img {
+    background-color: #634643;
+    border-radius: 5px;
+    width: 260px;
+    height: 365px;
+}
+
+#enviar {
+    cursor: pointer
+}
+
+#descricao {
+    height: 200px;
+    width: 420px;
+    text-align: start;
+    line-break: normal;
+}
+
+#ano {
+    width: 60px;
+}

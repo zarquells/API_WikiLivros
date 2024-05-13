@@ -1,0 +1,48 @@
+.book{
+    margin: 5vh auto;
+}
+
+.book-contaneir{
+    margin-bottom: 20vh;
+    display: flex;
+    justify-content: center;
+}
+
+.contaneir-img{
+    border-radius: 5px;
+    width: 380px;
+}
+
+.about-book{
+    margin-left: 3vw;
+}
+
+.titles-contaneir{
+
+    h2{
+        max-width: 500px;
+        font-size: 38px;
+        margin-bottom: 2px;
+        color: #FEDAD5;
+    }
+
+    p{
+        max-width: 300px;
+        font-size: 24px;
+        margin-bottom: 2px;
+    }
+
+    #year{
+        font-size: 18px;
+        color:#B26E63;
+    }
+}
+
+.description{
+    max-width: 580px;
+    max-height: 300px;
+    margin-top: 4vh;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 300;
+}
