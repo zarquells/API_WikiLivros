@@ -32,8 +32,7 @@ const Book = () => {
       {book && (
         <div className="book-contaneir">
           <div className="contaneir-img">
-            {/* <img className="contaneir-img" src={`${book.cover}`}/> */}
-            <img className="contaneir-img" src="https://th.bing.com/th/id/R.abb8f56e32745ccce1ca80dcce9a939b?rik=EyHichvsM9XXJw&pid=ImgRaw&r=0"/>
+            <img className="contaneir-img" src={`${book.cover}`}/>
           </div>
 
           <div className="about-book">

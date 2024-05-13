@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <header>
       <Link to='/'>
-        <img src='./src/assets/logo.svg' alt='logo do website'/>
+        <img src='https://i.ibb.co/ChhR5Df/Naciona-Livros.png' alt='logo do website'/>
       </Link>
 
       <div className='input-contaneir'>
