@@ -22,7 +22,8 @@
 
     button{
         background-color: #634643;
-        padding: 1vh;
+        font-weight: bold;
+        padding: 1.5vh;
         font-size: 24px;
         border-radius: 8px;
         color: inherit;
