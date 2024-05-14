@@ -14,6 +14,7 @@ const Search = () => {
             const data = await res.json()
 
             setBooks(data)
+            
         } catch (err) {
             console.log(err)
         }
@@ -21,21 +22,30 @@ const Search = () => {
 
     useEffect(()=>{
         getBooks()
-    }, [])
+    }, [books])
 
   return (
     <div>
         <h1>Buscando por: "{name}"</h1>
-        { books.length === 0 ? <p>Carregando...</p> : (
-            books.map((book) =>(
+        <div  className="colection-books poppins">
+            <ul>
+            { books.length === 0 ? <p>Carregando...</p> : (
+                books.map((book) =>(
                 <Link to={`/book/${book._id}`} id={book._id} key={book._id}>
-                    <div key={book._id}>
-                        <h2>{book.name}</h2>
-                        <p>Autor: {book.author}</p>
+                <li className="contaneir-book">
+                    <div className="contaneir-img">
+                    <img className="contaneir-img" src={`${book.cover}`}/>
                     </div>
+                    <h2>{book.name}</h2>
+                    <p>{book.author}</p>
+                 </li>
                 </Link>
-            ))
-        )}
+                ))
+                )}
+            </ul>
+
+        </div>
+        
     </div>
   )
 }

@@ -7,6 +7,10 @@ import '../components/style/header.css';
 const Header = () => {
   const [search, setSearch] = useState('');
 
+  const clearInput = () =>{
+    document.getElementById('input').value = ''
+  }
+
   return (
     <header>
       <Link to='/'>
@@ -17,7 +21,7 @@ const Header = () => {
         <form>
           <input type='text' name='search-book' id='input' className='poppins' onChange={(e) =>setSearch(e.target.value)}/>
           <Link to={`/books/${search}`} className='input-contaneir'>
-            <button name='search-book'> <FaSearch /> </button>
+            <button name='search-book' onClick={clearInput}> <FaSearch /> </button>
           </Link>
         </form>
       </div>
